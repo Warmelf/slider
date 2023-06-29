@@ -1,13 +1,17 @@
 .header {
     background: linear-gradient(360deg, #464341 0%, #010101 100%);
     margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .header__container {
-    padding: 35px 262px 29px;
+    padding: 35px 0 29px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1396px;
+    width: 96%;
 }
 
 .header__link {

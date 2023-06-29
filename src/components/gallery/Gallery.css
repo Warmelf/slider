@@ -1,9 +1,23 @@
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  margin: 0 0 160px 516px;
+  max-width: 1588px;
+  width: 96%;
+}
+
 .gallery__title {
   line-height: 130%;
   text-transform: uppercase;
-  margin: 0 0 120px 262px;
+  margin: 0 0 120px 0;
 }
 
 .gallery__list {
   list-style: none;
+  display: flex;
+  overflow-x: hidden;
+  gap: 40px;
 }

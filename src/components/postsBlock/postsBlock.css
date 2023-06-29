@@ -1,5 +1,11 @@
+.posts-container {
+  display: flex;
+  justify-content: center;
+}
+
 .posts {
   max-width: 1588px;
+  width: 96%;
   margin-bottom: 160px;
 }
 
