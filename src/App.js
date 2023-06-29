@@ -1,10 +1,24 @@
-import './App.css';
-import Header from './components/header/Header';
+import "./App.css";
+import Gallery from "./components/gallery/Gallery";
+import Header from "./components/header/Header";
+import PostsBlock from "./components/postsBlock/PostsBlock";
+import FirstPostBlock from "./constans/FirstPostBlock";
+import SecondPostBlock from "./constans/SecondPostBlock";
 
 function App() {
+  
   return (
-    <div className="App">
+    <div>
       <Header />
+      <main>
+        <PostsBlock
+          {...FirstPostBlock}
+        />
+        <Gallery />
+        <PostsBlock
+          {...SecondPostBlock}
+        />
+      </main>
     </div>
   );
 }

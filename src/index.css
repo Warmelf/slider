@@ -1,21 +1,18 @@
 @font-face {
-  font-family: 'Orchidea Pro';
-  src: local('Orchidea Pro'),
-    url('./fonts/Orchidea/OrchideaPro-Medium.ttf') format('truetype');
+  font-family: "Orchidea Pro";
+  src: local("Orchidea Pro"), url("./fonts/Orchidea/OrchideaPro-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: local('Roboto'),
-    url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-family: "Roboto";
+  src: local("Roboto"), url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Manrope';
-  src: local('Manrope'),
-    url('./fonts/Manrope/Manrope-Medium.ttf') format('truetype');
+  font-family: "Manrope";
+  src: local("Manrope"), url("./fonts/Manrope/Manrope-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 
@@ -26,9 +23,16 @@
 }
 
 body {
-  font-family: 'Manrope';
+  font-family: "Manrope";
+  font-weight: 500;
+  color: #141414;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Orchidea Pro';
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Orchidea Pro";
+  font-size: 48px;
+  font-weight: 500;
 }

@@ -1,5 +1,6 @@
 .header {
     background: linear-gradient(360deg, #464341 0%, #010101 100%);
+    margin-bottom: 200px;
 }
 
 .header__container {
@@ -18,6 +19,11 @@
 
 
 @media screen and (max-width: 1400px) {
+
+    .header {
+        margin-bottom: 72px;
+    }
+
     .header__container {
         padding: 35px 40px 29px;
     }

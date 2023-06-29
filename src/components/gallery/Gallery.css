@@ -1,0 +1,9 @@
+.gallery__title {
+  line-height: 130%;
+  text-transform: uppercase;
+  margin: 0 0 120px 262px;
+}
+
+.gallery__list {
+  list-style: none;
+}
