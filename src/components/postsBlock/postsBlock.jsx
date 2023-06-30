@@ -27,7 +27,6 @@ function PostsBlock({
               />
               <source width="372" height="372" srcSet={`/assets/posts/${firstSmallImage}`} />
               <img
-                className="header__logo"
                 width="375"
                 height="370"
                 src={`/assets/posts/${firstSmallImage}`}
@@ -55,7 +54,6 @@ function PostsBlock({
               />
               <source width="375" height="360" srcSet={`/assets/posts/${secondSmallImage}`} />
               <img
-                className="header__logo"
                 width="375"
                 height="360"
                 src={`/assets/posts/${secondSmallImage}`}

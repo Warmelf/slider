@@ -20,4 +20,10 @@
   display: flex;
   overflow-x: hidden;
   gap: 40px;
+  position: relative;
+  height: 494px;
+}
+
+.gallery__item {
+  position: absolute;
 }

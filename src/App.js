@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header />
-      <main>
+      <main style={{paddingTop: "105px"}}>
         <PostsBlock
           {...FirstPostBlock}
         />
