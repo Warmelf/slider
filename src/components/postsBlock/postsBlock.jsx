@@ -1,3 +1,4 @@
+import * as React from "react";
 import "./PostsBlock.css";
 
 function PostsBlock({
@@ -13,7 +14,7 @@ function PostsBlock({
   secondTextPartTwo,
 }) {
   return (
-    <div className="posts-container">
+    <section className="posts-container" data-scroll-section>
       <div className="posts">
         <h2 className="posts__title">ut aliquip ex ea commodo consequat</h2>
         <ul className="posts__list">
@@ -63,7 +64,7 @@ function PostsBlock({
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 110px;
+  background-color: rgb(20, 20, 20);
+  .footer__text {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 18px;
+  }
+}

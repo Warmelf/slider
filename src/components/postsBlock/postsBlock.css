@@ -1,6 +1,7 @@
 .posts-container {
   display: flex;
   justify-content: center;
+  padding-top: "105px";
 }
 
 .posts {
@@ -47,4 +48,23 @@
 
 .posts__subtitle + .posts__text {
     margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+  .posts__item {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .posts__title {
+    margin-left: 0;
+  }
+
+  .posts__item:nth-child(even) {
+    margin-left: 0
+  }
+
+  .posts__description {
+    max-width: 335px;
+}
 }

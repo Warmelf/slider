@@ -3,7 +3,7 @@ import Logo from "../../assets/logo.svg";
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" data-scroll-section>
       <div className="header__container">
         <a href="/">
           <img className="header__logo" src={Logo} alt="CIRCEYA" />
